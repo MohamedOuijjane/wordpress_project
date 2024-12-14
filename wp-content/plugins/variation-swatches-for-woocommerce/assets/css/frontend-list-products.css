@@ -1,0 +1,26 @@
+.woocommerce-variation-price,
+.woocommerce-variation-availability,
+.woocommerce-variation-add-to-cart .quantity {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.variations_form .variations td.label {
+  display: none;
+}
+.variations_form .variations td.value {
+  padding: 0;
+}
+
+.tawcvs-swatches .swatch,
+.tawcvs-swatches .swatch-show-more {
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgba(58, 58, 58, 0.568627451);
+}
+.tawcvs-swatches .swatch.swatch-image img,
+.tawcvs-swatches .swatch-show-more.swatch-image img {
+  margin: 0;
+}
+
+/*# sourceMappingURL=frontend-list-products.css.map */

@@ -1,0 +1,38 @@
+.woocommerce-variation-price,
+.woocommerce-variation-availability,
+.woocommerce-variation-add-to-cart .quantity {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.variations_form {
+  .variations {
+    td {
+
+      &.label {
+        display: none;
+      }
+
+      &.value {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.tawcvs-swatches {
+  .swatch,
+  .swatch-show-more{
+    width: 35px;
+    height: 35px;
+
+    &.swatch-image {
+
+      img {
+        margin: 0;
+      }
+    }
+
+    border: 1px solid #3a3a3a91;
+  }
+}

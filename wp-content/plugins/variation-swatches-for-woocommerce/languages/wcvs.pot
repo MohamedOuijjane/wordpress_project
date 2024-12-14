@@ -1,0 +1,806 @@
+# Copyright (C) 2023 Woosuite
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Variation Swatches for WooCommerce 2.1.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/variation-swatches-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-23T15:11:14+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wcvs\n"
+
+#. Plugin Name of the plugin
+msgid "Variation Swatches for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://aovup.com/plugins/woocommerce-variation-swatches/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Creates variation swatches for WooCommerce, converts your variation dropdown into color, label, or photo swatches with ease, The original Variation Swatches for WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+msgid "AOVUp"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://aovup.com/"
+msgstr ""
+
+#: includes/class-admin-product.php:34
+msgid "Select terms"
+msgstr ""
+
+#: includes/class-admin-product.php:45
+msgid "Select all"
+msgstr ""
+
+#: includes/class-admin-product.php:46
+msgid "Select none"
+msgstr ""
+
+#: includes/class-admin-product.php:47
+msgid "Add new"
+msgstr ""
+
+#: includes/class-admin-product.php:64
+msgid "Wrong request"
+msgstr ""
+
+#: includes/class-admin-product.php:68
+msgid "Not enough data"
+msgstr ""
+
+#: includes/class-admin-product.php:72
+msgid "Taxonomy is not exists"
+msgstr ""
+
+#: includes/class-admin-product.php:76
+msgid "This term is exists"
+msgstr ""
+
+#: includes/class-admin-product.php:90
+msgid "Added successfully"
+msgstr ""
+
+#: includes/class-admin-product.php:113
+msgid "Add new term"
+msgstr ""
+
+#: includes/class-admin-product.php:117
+msgid "Name"
+msgstr ""
+
+#: includes/class-admin-product.php:123
+msgid "Slug"
+msgstr ""
+
+#: includes/class-admin-product.php:135
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-admin-product.php:136
+msgid "Add New"
+msgstr ""
+
+#: includes/class-admin-product.php:146
+#: includes/class-variation-swatches.php:39
+msgid "Color"
+msgstr ""
+
+#: includes/class-admin-product.php:153
+#: includes/class-variation-swatches.php:40
+msgid "Image"
+msgstr ""
+
+#: includes/class-admin-product.php:159
+#: includes/class-admin.php:458
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/class-admin-product.php:160
+#: includes/class-admin.php:459
+msgid "Remove image"
+msgstr ""
+
+#: includes/class-admin-product.php:168
+#: includes/class-admin-product.php:177
+#: includes/class-variation-swatches.php:41
+msgid "Label"
+msgstr ""
+
+#: includes/class-admin.php:143
+#: includes/class-menu-page.php:34
+#: includes/class-menu-page.php:35
+#: includes/class-menu-page.php:42
+#: includes/class-menu-page.php:43
+msgid "Variation Swatches"
+msgstr ""
+
+#: includes/class-admin.php:162
+msgid "Disable Swatches"
+msgstr ""
+
+#: includes/class-admin.php:165
+msgid "Show the default dropdown selection instead of swatches settings"
+msgstr ""
+
+#: includes/class-admin.php:173
+msgid "Single variation preview attributes"
+msgstr ""
+
+#: includes/class-admin.php:175
+#: includes/class-admin.php:189
+msgid " - Choose Attribute - "
+msgstr ""
+
+#: includes/class-admin.php:187
+msgid "Single attribute for using in catalog pages"
+msgstr ""
+
+#: includes/class-admin.php:312
+msgid "Choose an image"
+msgstr ""
+
+#: includes/class-admin.php:313
+msgid "Use image"
+msgstr ""
+
+#: includes/class-admin.php:331
+msgid "Found a backup of product attributes types. This backup was generated at"
+msgstr ""
+
+#: includes/class-admin.php:340
+msgid "Restore product attributes types"
+msgstr ""
+
+#: includes/class-admin.php:347
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-admin.php:355
+msgid "All attributes types have been restored."
+msgstr ""
+
+#: includes/class-menu-page.php:52
+#: includes/class-menu-page.php:53
+msgid "Settings"
+msgstr ""
+
+#: includes/class-menu-page.php:60
+msgid "Woosuite Addons"
+msgstr ""
+
+#: includes/class-menu-page.php:61
+#: templates/admin/partials/dashboard-menu.php:6
+#: templates/admin/partials/panel-header.php:13
+msgid "Addons"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:15
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:20
+msgid "Design"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:26
+msgid "Archive / Shop"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:45
+msgid "Product page"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:49
+msgid "Shop Archive"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:53
+#: includes/class-setting-fields-manager.php:368
+msgid "Tooltip"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:71
+msgid "Enable Color Swatches"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:80
+msgid "Enable the Color type for Product Attributes"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:84
+#: includes/class-setting-fields-manager.php:133
+#: includes/class-setting-fields-manager.php:179
+msgid "Select Attributes"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:97
+msgid "Which attributes you want to enable the Color type?"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:104
+msgid "Show label inside swatches"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:114
+msgid "Show the label for color swatches"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:120
+msgid "Enable Image Swatches"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:129
+msgid "Enable the Image type for Product Attributes"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:146
+msgid "Which attributes you want to enable the Image type?"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:153
+msgid "Enable Radio Button Swatches"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:162
+msgid "Enable the Radio button type for Product Attributes"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:167
+msgid "Auto Convert Dropdowns To Label"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:175
+msgid "Automatically covert dropdowns to &#34;Label Swatch&#34; by default"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:193
+msgid "Auto Convert Dropdowns To Image"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:202
+msgid "Automatically covert dropdowns to &#34;Image Swatch&#34; if variation has an image."
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:206
+msgid "Disable checking the variation product availability"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:214
+msgid "All variations will be shown as available to select."
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:218
+msgid "Still showing the invalid attribute's as selectable"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:232
+msgid "Single variation image preview"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:239
+msgid "-- Select attribute --"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:247
+msgid "Automatically change product image based on this attribute"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:251
+msgid "Choose your swatch shape"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:259
+#: includes/class-setting-fields-manager.php:263
+#: includes/class-setting-fields-manager.php:267
+msgid "S"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:275
+msgid "Select option below"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:279
+msgid "Choose your swatch image ratio"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:287
+msgid "None"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:291
+msgid "1:1"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:295
+msgid "3:4"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:299
+msgid "4:3"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:303
+msgid "3:2"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:307
+msgid "2:3"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:311
+msgid "16:9"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:315
+msgid "9:16"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:319
+msgid "5:4"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:323
+msgid "4:5"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:332
+msgid "It will be applied to the swatch image only.<br><i><u>Note:</u></i> <b>Swatch Height</b> in <b>Design</b> tab will be ignored."
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:336
+msgid "Image position"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:344
+msgid "Default"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:351
+#: includes/class-setting-fields-manager.php:409
+msgid "Select option"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:356
+msgid "Disable Default Plugin Stylesheet"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:364
+msgid "Option to enable/disable default plugin stylesheet for theme developer"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:376
+msgid "Enable or disable tooltip"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:380
+msgid "Enable Dual Color"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:389
+msgid "Enable or disable when the attribute type is set to color"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:393
+msgid "Out of Stock Behaviour"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:401
+msgid "Blur With Cross"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:439
+msgid "Swatch limit on Singe product"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:449
+#: includes/class-setting-fields-manager.php:1377
+msgid "Set a max amount of swatches to show.<br>0 means show all swatches"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:456
+#: includes/class-setting-fields-manager.php:812
+msgid "Item styling"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:465
+#: includes/class-setting-fields-manager.php:821
+msgid "Edit the default state of your swatches"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:469
+#: includes/class-setting-fields-manager.php:825
+msgid "Item hover styling"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:478
+#: includes/class-setting-fields-manager.php:834
+msgid "Edit the hover state of your swatches"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:482
+#: includes/class-setting-fields-manager.php:838
+msgid "Item Selected Styling"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:491
+#: includes/class-setting-fields-manager.php:847
+msgid "Edit the selected state of your swatches"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:495
+#: includes/class-setting-fields-manager.php:851
+msgid "Swatch Text font size"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:503
+#: includes/class-setting-fields-manager.php:859
+#: includes/class-setting-fields-manager.php:1188
+msgid "The default font size that will be used for your swatches text"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:507
+#: includes/class-setting-fields-manager.php:863
+#: includes/class-setting-fields-manager.php:1192
+msgid "Text font size"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:521
+#: includes/class-setting-fields-manager.php:584
+#: includes/class-setting-fields-manager.php:642
+#: includes/class-setting-fields-manager.php:700
+#: includes/class-setting-fields-manager.php:758
+#: includes/class-setting-fields-manager.php:788
+#: includes/class-setting-fields-manager.php:803
+#: includes/class-setting-fields-manager.php:877
+#: includes/class-setting-fields-manager.php:940
+#: includes/class-setting-fields-manager.php:998
+#: includes/class-setting-fields-manager.php:1056
+#: includes/class-setting-fields-manager.php:1114
+#: includes/class-setting-fields-manager.php:1144
+#: includes/class-setting-fields-manager.php:1159
+#: includes/class-setting-fields-manager.php:1206
+#: includes/class-setting-fields-manager.php:1236
+#: includes/class-setting-fields-manager.php:1250
+#: includes/class-setting-fields-manager.php:1264
+msgid "px"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:525
+#: includes/class-setting-fields-manager.php:588
+#: includes/class-setting-fields-manager.php:646
+#: includes/class-setting-fields-manager.php:704
+#: includes/class-setting-fields-manager.php:762
+#: includes/class-setting-fields-manager.php:881
+#: includes/class-setting-fields-manager.php:944
+#: includes/class-setting-fields-manager.php:1002
+#: includes/class-setting-fields-manager.php:1060
+#: includes/class-setting-fields-manager.php:1118
+#: includes/class-setting-fields-manager.php:1210
+msgid "rem"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:529
+#: includes/class-setting-fields-manager.php:592
+#: includes/class-setting-fields-manager.php:650
+#: includes/class-setting-fields-manager.php:708
+#: includes/class-setting-fields-manager.php:766
+#: includes/class-setting-fields-manager.php:885
+#: includes/class-setting-fields-manager.php:948
+#: includes/class-setting-fields-manager.php:1006
+#: includes/class-setting-fields-manager.php:1064
+#: includes/class-setting-fields-manager.php:1122
+#: includes/class-setting-fields-manager.php:1214
+msgid "pt"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:542
+#: includes/class-setting-fields-manager.php:898
+msgid "Margin and Padding"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:544
+#: includes/class-setting-fields-manager.php:900
+msgid "Swatch Item -> represents each individual swatch item.<br>Swatches Wrapper -> represents the container for the group of swatches."
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:548
+#: includes/class-setting-fields-manager.php:904
+msgid "Swatch Item Margin"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:596
+#: includes/class-setting-fields-manager.php:654
+#: includes/class-setting-fields-manager.php:712
+#: includes/class-setting-fields-manager.php:770
+#: includes/class-setting-fields-manager.php:952
+#: includes/class-setting-fields-manager.php:1010
+#: includes/class-setting-fields-manager.php:1068
+#: includes/class-setting-fields-manager.php:1126
+msgid "em"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:606
+#: includes/class-setting-fields-manager.php:962
+msgid "Swatch Item Padding"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:664
+#: includes/class-setting-fields-manager.php:1020
+msgid "Swatch Wrapper Margin"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:722
+#: includes/class-setting-fields-manager.php:1078
+msgid "Swatch Wrapper Padding"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:780
+#: includes/class-setting-fields-manager.php:1136
+msgid "Swatch Width"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:795
+#: includes/class-setting-fields-manager.php:1151
+msgid "Swatch Height"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1168
+msgid "Tooltip styling"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1180
+msgid "Tooltip Text font size"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1228
+msgid "Tooltip Width"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1242
+msgid "Tooltip Maximum Width"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1256
+msgid "Tooltip Line Height"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1273
+msgid "Show Swatches Label"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1281
+msgid "This will show your swatches when users are browsing your main store page"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1285
+msgid "Show clear link"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1293
+msgid "This allows users to clean section"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1297
+msgid "Swatch alignment"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1305
+msgid "Left"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1309
+msgid "Center"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1313
+msgid "Right"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1319
+msgid "Chose how to swatches are displayed"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1323
+msgid "Swatch position"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1331
+msgid "Before Title"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1335
+msgid "After Title"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1339
+msgid "Before Add to Cart"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1343
+msgid "After Add to Cart"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1350
+msgid "Choose where to insert swatches"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1354
+msgid "Enable Tooltip"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1363
+msgid "Enhance the shopping experience for your users"
+msgstr ""
+
+#: includes/class-setting-fields-manager.php:1367
+msgid "Swatch limit"
+msgstr ""
+
+#: includes/class-upgrader.php:48
+msgid "You need to update new settings for the Variation Swatches plugin <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/class-variation-swatches.php:45
+msgid "Radio button"
+msgstr ""
+
+#: includes/class-variation-swatches.php:215
+msgid "Configure items"
+msgstr ""
+
+#: templates/admin/addons-pages.php:14
+msgid "All AOVUP Plugins"
+msgstr ""
+
+#: templates/admin/addons-pages.php:15
+msgid "You can view and check more details on our plugins below"
+msgstr ""
+
+#: templates/admin/addons-pages.php:28
+msgid "Filter by"
+msgstr ""
+
+#: templates/admin/addons-pages.php:33
+msgid "wholesale"
+msgstr ""
+
+#: templates/admin/addons-pages.php:34
+msgid "wholesale 2"
+msgstr ""
+
+#: templates/admin/addons-pages.php:35
+msgid "wholesale 3"
+msgstr ""
+
+#: templates/admin/partials/dashboard-header.php:7
+msgid "Version "
+msgstr ""
+
+#: templates/admin/partials/dashboard-menu.php:11
+#: templates/admin/partials/panel-header.php:28
+msgid "Docs"
+msgstr ""
+
+#: templates/admin/partials/dashboard-menu.php:16
+#: templates/admin/partials/panel-footer.php:5
+#: templates/admin/partials/panel-header.php:23
+msgid "Support"
+msgstr ""
+
+#: templates/admin/partials/dashboard-menu.php:21
+msgid "My Account "
+msgstr ""
+
+#: templates/admin/partials/modules-grid.php:23
+msgid "Last Updated:"
+msgstr ""
+
+#: templates/admin/partials/modules-grid.php:36
+msgid "Learn more"
+msgstr ""
+
+#: templates/admin/partials/panel-footer.php:10
+msgid "Need help? Were here for you!"
+msgstr ""
+
+#: templates/admin/partials/panel-footer.php:12
+msgid "Have a question? Hit a bug? Get the help you need, when you need it from our friendly support staff."
+msgstr ""
+
+#: templates/admin/partials/panel-footer.php:16
+msgid "Get Support\t"
+msgstr ""
+
+#: templates/admin/partials/panel-footer.php:22
+msgid "Priority Support"
+msgstr ""
+
+#: templates/admin/partials/panel-footer.php:23
+msgid "pro"
+msgstr ""
+
+#: templates/admin/partials/panel-footer.php:26
+msgid "Want your questions answered faster? Go Pro to be first in the queue!"
+msgstr ""
+
+#: templates/admin/partials/panel-footer.php:30
+msgid "Go PRO"
+msgstr ""
+
+#: templates/admin/partials/panel-footer.php:37
+msgid "Custom development"
+msgstr ""
+
+#: templates/admin/partials/panel-footer.php:41
+msgid "Do you need a custom plugin or edit to your site?"
+msgstr ""
+
+#: templates/admin/partials/panel-footer.php:43
+msgid "Bring your project to life with the help of our trusted agency partners. They are equipped to handle both large and small customization jobs."
+msgstr ""
+
+#: templates/admin/partials/panel-header.php:18
+msgid "Free vs Pro"
+msgstr ""
+
+#: templates/admin/partials/panel-header.php:33
+msgid "Discard"
+msgstr ""
+
+#: templates/admin/partials/panel-header.php:34
+msgid "Save"
+msgstr ""
+
+#: templates/admin/partials/panel-sidebar.php:7
+msgid "Getting Started"
+msgstr ""
+
+#: templates/admin/pro-feature-popup.php:8
+msgid "Upgrade For Additional Features"
+msgstr ""
+
+#: templates/admin/pro-feature-popup.php:9
+msgid "Get access to more features access to paid support and much more. Click below for all the details."
+msgstr ""
+
+#: templates/admin/pro-feature-popup.php:11
+msgid "See Features & Pricing"
+msgstr ""
+
+#: templates/admin/pro-feature-popup.php:21
+msgid "<strong>Bonus: </strong> Variation swatches lite users get <a href=\"%s\" %s>35%% off regular price</a>, automatically applied at checkout."
+msgstr ""
+
+#: templates/admin/setting-panel.php:23
+msgid "Saving..."
+msgstr ""
+
+#: templates/admin/setting-panel.php:26
+msgid "Settings saved successfully."
+msgstr ""
+
+#: templates/admin/setting-panel.php:29
+msgid "Settings saved un-successfully."
+msgstr ""
+
+#: templates/admin/setting-panel.php:42
+msgid "Variations Swatches for woocommerce by AOVUP"
+msgstr ""
+
+#: variation-swatches-for-woocommerce.php:57
+msgid "Variation Swatches for WooCommerce is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+
+#: variation-swatches-for-woocommerce.php:72
+msgid "No need to activate the free version of Variation Swatches for WooCommerce plugin while the pro version is activated."
+msgstr ""

@@ -1,0 +1,1455 @@
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.woocommerce div.product .cart.variations_form .variable:not(.type-select) .arrow,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .variable:not(.type-select) .arrow,
+.woocommerce div.product .woosb-product .variations_form .variable:not(.type-select) .arrow,
+.woocommerce:not(.archive) li.product .cart.variations_form .variable:not(.type-select) .arrow,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .variable:not(.type-select) .arrow,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .variable:not(.type-select) .arrow,
+.woocommerce.archive .cart.variations_form .variable:not(.type-select) .arrow,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .variable:not(.type-select) .arrow,
+.woocommerce.archive .woosb-product .variations_form .variable:not(.type-select) .arrow,
+.wc-product-table-wrapper .cart.variations_form .variable:not(.type-select) .arrow,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .variable:not(.type-select) .arrow,
+.wc-product-table-wrapper .woosb-product .variations_form .variable:not(.type-select) .arrow,
+.woocommerce.single-product .cart.variations_form .variable:not(.type-select) .arrow,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .variable:not(.type-select) .arrow,
+.woocommerce.single-product .woosb-product .variations_form .variable:not(.type-select) .arrow {
+  display: none !important;
+}
+.woocommerce div.product .cart.variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce div.product .woosb-product .variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce.archive .cart.variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce.archive .woosb-product .variations_form .variable:not(.type-select) .line-hover:after,
+.wc-product-table-wrapper .cart.variations_form .variable:not(.type-select) .line-hover:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .variable:not(.type-select) .line-hover:after,
+.wc-product-table-wrapper .woosb-product .variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce.single-product .cart.variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .variable:not(.type-select) .line-hover:after,
+.woocommerce.single-product .woosb-product .variations_form .variable:not(.type-select) .line-hover:after {
+  content: none;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches {
+  padding: 5px;
+  display: inline-flex !important;
+  flex-wrap: wrap;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  white-space: nowrap;
+  margin: 0 10px;
+  padding: 2px 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch:after, .woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:before {
+  display: block !important;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-color,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-color,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-color,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-color,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-color {
+  text-indent: -9999em;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-color.selected:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-color.selected:after {
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -moz-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+  content: "";
+  width: 6px;
+  height: 10px;
+  display: block;
+  border: solid #eee;
+  border-width: 0 2px 2px 0;
+  border-radius: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -2px -2px 0 0;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color),
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch:not(.swatch-color),
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:not(.swatch-color) {
+  background-color: #f1f1f1;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-label,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-label,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-label,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-label,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-label,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-label {
+  font-size: 14px;
+  min-width: max-content;
+  width: auto;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-image,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-image,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-image,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-image,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-image {
+  font-size: 0;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-image .swatch__tooltip,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-image .swatch__tooltip {
+  font-size: 14px;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle {
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle img,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-circle:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-circle:before {
+  border-radius: 50%;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded img,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded img {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-rounded:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-rounded:before {
+  border-radius: 8px;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge img,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge img {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.swatch-shape-edge:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.swatch-shape-edge:before {
+  border-radius: 0;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.disabled, .woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.disabled,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.disabled,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.disabled,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.disabled,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.disabled,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable {
+  cursor: default;
+  opacity: 0.4 !important;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip, .woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.disabled .swatch__tooltip,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable .swatch__tooltip,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.disabled .swatch__tooltip,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable .swatch__tooltip {
+  display: none;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.woosuite-selectable,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.woosuite-selectable {
+  cursor: pointer;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch:first-child,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:first-child,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch:first-child,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:first-child,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch:first-child,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:first-child {
+  margin-left: 0;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch:last-child,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:last-child,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch:last-child,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:last-child,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch:last-child,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:last-child {
+  margin-right: 0;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more:before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  border: 1px solid #ddd;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.selected,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.selected,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.selected,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.selected,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected {
+  border-color: transparent;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.selected:before,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected:before,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.selected:before,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.selected:before,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected:before {
+  border-color: #674399;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.selected:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.selected:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.selected:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected:after {
+  content: none;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch.selected.swatch-label,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-show-more.selected.swatch-label {
+  border-bottom: none !important;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch__tooltip,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch__tooltip,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch__tooltip,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch__tooltip,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch__tooltip {
+  -webkit-transform: translate(-50%, -100%);
+  -moz-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background: #333;
+  z-index: 2;
+  color: #fff;
+  margin: -15px 0 0 0;
+  padding: 5px 10px;
+  text-indent: initial;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+  display: inline-block;
+  word-break: break-all;
+  white-space: normal;
+  min-width: max-content;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch__tooltip:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch__tooltip:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch__tooltip:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch__tooltip:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch__tooltip:after {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #333;
+  bottom: -4px;
+  left: 50%;
+  margin-left: -6px;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-radio .swatch__tooltip {
+  left: 10% !important;
+  top: 10px;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch-item-wrapper,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch-item-wrapper,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-item-wrapper,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch-item-wrapper,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch-item-wrapper {
+  position: relative;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches .swatch:hover + .swatch__tooltip {
+  opacity: 1;
+  visibility: visible;
+  user-select: auto;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable {
+  position: relative;
+  background: rgba(51, 51, 51, 0.3411764706);
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled img,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable img {
+  opacity: 0.5;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0;
+  background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 0.8px), rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%), linear-gradient(to top right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 0.8px), rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%);
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-rounded:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-rounded:after {
+  border-radius: 8px;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.disabled.swatch-shape-circle:after,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-blur-with-cross .swatch.woosuite-selectable.swatch-shape-circle:after {
+  border-radius: 50%;
+}
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce div.product .cart.variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce div.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce div.product .woosb-product .variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce:not(.archive) li.product .cart.variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce:not(.archive) li.product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce:not(.archive) li.product .woosb-product .variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce.archive .cart.variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce.archive .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce.archive .woosb-product .variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.wc-product-table-wrapper .cart.variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.wc-product-table-wrapper .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.wc-product-table-wrapper .woosb-product .variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce.single-product .cart.variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce.single-product .bundled_item_cart_content.cart.variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-hide .swatch.disabled,
+.woocommerce.single-product .woosb-product .variations_form .tawcvs-swatches.oss-hide .swatch.woosuite-selectable {
+  display: none !important;
+}
+
+.swatch-align-left .variations {
+  text-align: left;
+}
+.swatch-align-left .variations img, .swatch-align-left .variations select, .swatch-align-left .variations .value {
+  text-align: left;
+}
+
+.swatch-align-center .variations {
+  text-align: center;
+}
+.swatch-align-center .variations img, .swatch-align-center .variations select, .swatch-align-center .variations .value {
+  text-align: center;
+}
+
+.related.products .swatch-align-center .variations .label {
+  display: none;
+}
+
+.swatch-align-right .variations {
+  text-align: right;
+}
+.swatch-align-right .variations img, .swatch-align-right .variations select, .swatch-align-right .variations .value {
+  text-align: right;
+}
+
+.variations .reset_variations {
+  display: none;
+}
+
+/**
+ * Custom CSS for the Sober theme
+ */
+.woocommerce.theme-sober div.product form.cart.variations_form .variations .variable {
+  width: 90%;
+}
+@media (max-width: 768px) {
+  .woocommerce.theme-sober div.product form.cart.variations_form .variations .variable {
+    width: 100%;
+  }
+}
+.woocommerce.theme-sober div.product form.cart.variations_form .line-hover {
+  cursor: default;
+}
+.woocommerce.theme-sober div.product form.cart.variations_form .tawcvs-swatches .swatch-item-wrapper .swatch-image {
+  text-align: center;
+}
+.woocommerce.theme-sober div.product form.cart.variations_form .tawcvs-swatches .swatch-item-wrapper .swatch-image img {
+  width: 100%;
+  height: auto;
+}
+
+table.variations {
+  overflow: visible !important;
+}
+table.variations .label {
+  margin-bottom: 10px;
+}
+
+.swatch-radio {
+  width: 100%;
+}
+
+.swatch-radio input[type=radio] {
+  width: auto !important;
+  height: auto !important;
+}
+
+/*# sourceMappingURL=frontend.css.map */

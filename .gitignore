@@ -1,0 +1,17 @@
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore uploads
+/wp-content/uploads/
+
+# Ignore configuration files
+wp-config.php
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore XAMPP specific files
+*.sql
+*.db
