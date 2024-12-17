@@ -13,5 +13,5 @@ wp-config.php
 *.tmp
 
 # Ignore XAMPP specific files
-*.sql
+.sql
 *.db
