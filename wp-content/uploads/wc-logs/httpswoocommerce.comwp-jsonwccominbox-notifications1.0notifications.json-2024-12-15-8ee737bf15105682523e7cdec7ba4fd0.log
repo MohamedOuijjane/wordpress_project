@@ -1,0 +1,22 @@
+2024-12-15T16:24:57+00:00 ERROR Error getting data feed
+2024-12-15T16:24:57+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 5008 milliseconds with 11655 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
