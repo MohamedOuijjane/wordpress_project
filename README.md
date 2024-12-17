@@ -94,7 +94,7 @@ Un fichier SQL est fourni avec ce projet pour simplifier la configuration initia
 
 3. **Importez le fichier SQL :**
    - Cliquez sur l’onglet **Import**.
-   - Cliquez sur **Choisir un fichier** et sélectionnez le fichier SQL fourni (`wordpress_db.sql`).
+   - Cliquez sur **Choisir un fichier** et sélectionnez le fichier SQL fourni (`wordpressDatabase.sql`).
    - Cliquez sur **Exécuter** pour lancer l'importation.
 
 4. **Vérifiez les données :**
